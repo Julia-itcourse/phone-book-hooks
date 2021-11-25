@@ -1,0 +1,8 @@
+.removeButton {
+  padding: 10px;
+  background-color: #ef9175;
+  border-radius: 5px;
+  border: 1px solid gray;
+  cursor: pointer;
+  margin-top: 10px;
+}
