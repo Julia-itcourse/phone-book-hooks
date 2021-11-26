@@ -38,6 +38,7 @@ const ContactForm = ({ onAddItem }) => {
             className={styles.input}
             value={name}
             onChange={changeName}
+            placeholder=" "
             required
           />
         </label>
@@ -50,6 +51,7 @@ const ContactForm = ({ onAddItem }) => {
             className={styles.input}
             value={number}
             onChange={changeNumber}
+            placeholder=" "
             required
           />
         </label>

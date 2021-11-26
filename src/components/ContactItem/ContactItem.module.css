@@ -1,8 +1,29 @@
 .removeButton {
-  padding: 10px;
-  background-color: #ef9175;
+  border: 2px solid currentColor;
+
+  background-color: #ffe4af;
   border-radius: 5px;
-  border: 1px solid gray;
-  cursor: pointer;
+  color: #ef9175;
+  font-size: 1rem;
+  font-weight: 600;
   margin-top: 10px;
+  padding: 0.5rem;
+
+  transition: 0.2s transform ease-in-out;
+
+  cursor: pointer;
+}
+
+.removeButton:hover {
+  border: 2px solid transparent;
+  background-color: #ef9175;
+
+  color: #ffe4af;
+  transform: scale(1.05);
+  will-change: transform;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
 }

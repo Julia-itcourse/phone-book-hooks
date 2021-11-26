@@ -1,16 +1,29 @@
 .form {
-    max-width: 500px;
-    margin: 50px auto;
-    padding: 20px;
-    display: flex;
-    flex-direction: column;
-    font-size: 20px;
-    background-color: #ffe4af;
-  }
-  
-  .input {
-    border-radius: 5px;
-    border: 1px solid gray;
-    margin-left: 10px;
-    height: 40px;
-  }
+  max-width: 500px;
+  margin: 50px auto;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  font-size: 20px;
+  background-color: #ffe4af;
+}
+
+.input {
+  border: 1px solid rgba(33, 33, 33, 0.2);
+  box-sizing: border-box;
+  border-radius: 4px;
+  width: 100%;
+  padding: 12px 42px;
+  color: black;
+}
+
+.label {
+  display: block;
+  position: relative;
+  width: 100%;
+}
+
+.input:focus {
+  outline: 1px solid #b8c16e;
+  border-radius: 4px;
+}
